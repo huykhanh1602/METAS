@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+    --color-page: #f8fafc;
+    --color-surface: #ffffff;
+    --color-surface-soft: #f1f5f9;
+    --color-border: #e2e8f0;
+    --color-border-muted: #cbd5f5;
+    --color-border-light: #f1f5f9;
+    --color-primary: #1d3c96;
+    --color-primary-dark: #020617;
+    --color-accent: #f97316;
+    --color-accent-dark: #ea580c;
+    --color-accent-soft: #fee6df;
+    --color-info: #1d3c96;
+    --color-info-dark: #0284c7;
+    --color-info-light: #38bdf8;
+    --color-muted: #94a3b8;
+    --color-muted-light: #cbd5f5;
+    --color-muted-lighter: #e2e8f0;
+    --color-text-primary: #1d3c96;
+    --color-text-secondary: #475569;
+    --color-text-muted: #64748b;
+    --color-text-footer: #cbd5f5;
+    --color-banner: #e0f2fe;
+    --color-sidebar: #e0f2fe;
+    --color-highlight: #1d4ed8;
+    --color-success: #f97316;
+    --color-warning-soft: #fde68a;
+    --color-card: #ffffff;
+}
+
+@theme inline {
+    --color-page: var(--color-page);
+    --color-surface: var(--color-surface);
+    --color-surface-soft: var(--color-surface-soft);
+    --color-border: var(--color-border);
+    --color-border-muted: var(--color-border-muted);
+    --color-border-light: var(--color-border-light);
+    --color-primary: var(--color-primary);
+    --color-primary-dark: var(--color-primary-dark);
+    --color-accent: var(--color-accent);
+    --color-accent-dark: var(--color-accent-dark);
+    --color-accent-soft: var(--color-accent-soft);
+    --color-info: var(--color-info);
+    --color-info-dark: var(--color-info-dark);
+    --color-info-light: var(--color-info-light);
+    --color-muted: var(--color-muted);
+    --color-muted-light: var(--color-muted-light);
+    --color-muted-lighter: var(--color-muted-lighter);
+    --color-text-primary: var(--color-text-primary);
+    --color-text-secondary: var(--color-text-secondary);
+    --color-text-muted: var(--color-text-muted);
+    --color-text-footer: var(--color-text-footer);
+    --color-banner: var(--color-banner);
+    --color-sidebar: var(--color-sidebar);
+    --color-highlight: var(--color-highlight);
+    --color-success: var(--color-success);
+    --color-warning-soft: var(--color-warning-soft);
+    --color-card: var(--color-card);
+}
+
+body {
+    margin: 0;
+    font-family: "Manrope", "Inter", system-ui, sans-serif;
+    background-color: var(--color-page);
+    color: var(--color-text-primary);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
