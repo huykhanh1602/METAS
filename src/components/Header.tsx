@@ -55,10 +55,10 @@ const Header = () => {
 
                     <div className="hidden items-center gap-4 text-sm font-semibold text-text-secondary lg:flex">
                         <a
-                            href="tel:19006933"
+                            href="tel:0818933007"
                             className="flex items-center gap-2 text-text-secondary hover:text-info-dark"
                         >
-                            <Phone className="h-4 w-4" /> <span>1900 6933</span>
+                            <Phone className="h-4 w-4" /> <span>0818933007</span>
                         </a>
                         <button className="rounded-full border border-border-muted px-5 py-2 text-text-secondary transition hover:border-border">
                             Đăng nhập
