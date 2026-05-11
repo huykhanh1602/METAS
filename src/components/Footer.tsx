@@ -58,7 +58,7 @@ const Footer = () => {
                 <div className="container mx-auto flex flex-col items-center justify-between gap-2 text-center md:flex-row md:text-left">
                     <span>© 2026 METAS. Sở hữu bởi CTCP Giáo dục số META.</span>
                     <span>Hotline: 1900 6933 · Email: hotro@metas.vn</span>
-                    <span>Địa chỉ: Tầng 4, Tòa nhà 252, Đường Nguyễn Thị Định, Hà Nội</span>
+                    <span>Địa chỉ: P Vàng Danh, Uông Bí, Quảng Ninh</span>
                 </div>
             </div>
         </footer>
